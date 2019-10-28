@@ -36,15 +36,22 @@ body{
 	font-weight: 500;
 	border-bottom: 1px solid rgba(255,255,255,255 .1);
 }
-.barra-lateral .menu:hover{
-	background: #35ae6b;
-	text-decoration: none;
-}
 
 .barra-lateral .menu a i{
 	margin-right: 20px;
 	font-weight:normal; 
 }
+
+.barra-lateral .menu a:hover{
+	background: #35ae6b;
+	text-decoration: none;
+}
+/*menú*/
+.btn-sq {
+	width: 100px ;
+	height: 100px ;
+	font-size: 10px;
+  }
 /*main*/
 .margin{
 	padding-top: 40px;
@@ -113,10 +120,12 @@ widget estadísticas*/
 	text-align:center;
 	font-family: "Roboto", sans-serif;
 }
+
 .main .estadisticas .caja h3{
 	margin-bottom: 10px;
 	color:#35ae6b;
 }
+
 .main .estadisticas .caja p{
 	color: #a8a8a8;
 	margin-bottom: 0;
@@ -173,7 +182,7 @@ width: 100%;
 }
 .main .comentarios .comentario .botones .aprobar{background: #35ae6b;}
 .main .comentarios .comentario .botones .eliminar{background: #b74848;}
-.main .comentarios .comentario .botones .bloquear{color: #acacac;}
+.main .comentarios .comentario .botones .bloquear{color: #acacac;}:hover
 
 .main .comentarios .comentario .botones .aprobar:hover{background: #449d44;}
 .main .comentarios .comentario .botones .eliminar:hover{background: #c9302c;}
